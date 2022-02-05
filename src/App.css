@@ -1,0 +1,80 @@
+#textbox{
+    
+    position: absolute;
+width: 915px;
+height: 78px;
+left: calc(50% - 915px/2);
+top: 56px;
+
+border: 3px solid #7879F1;
+box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+font-size: x-large;
+}
+#addToList{
+    position: absolute;
+width: 175px;
+height: 52px;
+left: calc(50% - 175px/2);
+top: 151px;
+padding: 0px;
+background: #EF5DA8;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#addToList:active{
+    position: absolute;
+width: 175px;
+height: 52px;
+left: calc(50% - 175px/2);
+top: 151px;
+padding: 0px;
+background: #EF5DA8;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+animation: click 1s;
+}
+#clear{
+    position: absolute;
+width: 175px;
+height: 52px;
+left: calc(50% - 175px/2);
+top: 215px;
+
+background: #EF5DA8;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#clear:active{
+    position: absolute;
+width: 175px;
+height: 52px;
+left: calc(50% - 175px/2);
+top: 215px;
+
+background: #EF5DA8;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+animation: click 1s;
+}
+.txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+}
+
+@keyframes click {
+    0%{
+        transform: translateY(0.5vh);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
